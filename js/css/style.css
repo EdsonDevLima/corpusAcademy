@@ -1,0 +1,208 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
+*{
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  font-family: 'Anton', sans-serif;
+
+}
+.header{
+  width: 100%;
+  min-height: 59px;
+  background-color: rgba(100, 100, 100, 0);
+  position: fixed;
+
+
+}
+/*menu*/
+.nav-menu{
+  margin-top: 10px;
+  height: 100vh;
+  width: 280px;
+  background-color: rgba(76, 76, 76, 0.618);
+  float: left;
+  position: absolute;
+  left: -280px;
+  transition: 0.5s;
+
+}
+.menu-aparece{
+left: 0px;
+transition: 2s;
+}
+/*icone de menu*/
+.icone{
+  width: 50px;
+  height: 50px;
+  position: static;
+  margin-left: 5px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  transition: 1s;
+
+}
+.icone span{
+  border: solid white 1px;
+  width: 50px;
+  height: 5px;
+  margin-top: 8px;
+  transition: 1s;
+  background-color: white;
+
+
+  
+}
+/*lista do menu*/
+.list-menu{
+  width: 100%;
+  list-style-position: inside;
+  list-style-type: none;
+  padding: 10px;
+  margin-top: 15px;
+}
+.list-menu li a{
+  color: white;
+  font-size: 20px;
+  text-decoration: none;
+}
+.list-menu li {
+  margin-top: 30px;
+  margin-bottom: 30px;
+  padding: 10px;
+}
+.list-menu li:hover {
+  background-color:rgba(20, 20, 20, 0.618) ;
+
+}
+
+/*secao1*/
+.section1{
+  width: 100%;
+  min-height: 700px;
+  background-image: url(../img/section1.png);
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  color:yellow;
+  font-size: 40px;
+}
+.section1 h2{
+  font-size: 30px;
+
+}
+.section1 a {
+  text-decoration: none;
+  color:orange;
+  font-size: 25px;
+  padding: 10px;
+  background-color: yellow;
+  border-radius: 15px;
+}
+/*secao 2*/
+.section2{
+  background-color: #141414;
+  width: 100%;
+  min-height: 600px;
+  border-top: solid white 1px;
+  display: flex;
+  justify-content: center ;
+  flex-direction: column;
+  
+}
+.tsec2 {
+  color: white;
+  letter-spacing: 1px;
+  margin-left: 10px;
+  margin-top: 10px;
+  font-size: 30px;
+  text-align: center;
+
+}
+.conteiner-sec2{
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.card{
+  width: 30%;
+  height: 350px;
+  min-width: 280px;
+  background-color: white;
+  margin: 20px;
+  padding: 10px;
+}
+.card img{
+  width: 100%;
+
+}
+/*secao 3*/
+.section3{
+  width: 100%;
+  min-height: 650px;
+  border-top: white solid 1px;
+  background-image: url(../img/car5.png);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.section3 p {
+  color: yellow;
+  font-size: 35px;
+  text-align: center;
+  
+}
+/*formulario*/
+.conteiner-form{
+  width:30%;
+  min-width:300px;
+  min-height: 450px;
+  background-color: #66666679;
+  border-radius: 25px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  
+}
+.formulario{
+  width: 80%;
+  
+}
+.formulario p {
+  font-size: 25px;
+  color: white;
+  letter-spacing: 1px;
+}
+.formulario label{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  margin: 15px;
+  color: white;
+  letter-spacing: 1px;
+  font-size: 20px;
+
+}
+.formulario input{
+  width: 80%;
+  height: 35px;
+  border-radius: 9px;
+  font-family:Arial, Helvetica, sans-serif;
+  font-size: 20px;
+  font-weight: bold;
+  text-align: center;
+}
+.formulario select{
+  width: 80%;
+}
+.bot{
+  width: 90px;
+  font-size: 25px;
+  margin: 0px 25px;
+}
+
