@@ -37,11 +37,11 @@ next.addEventListener("click",()=>{
   
   if(margin <largura / 1.5){
     margin += larguraItem 
-    conteinerItens.style.marginLeft = `-${margin + 20}px`
+    conteinerItens.style.marginLeft = `-${margin + 35}px`
 
   }else{
     margin = 0
-    conteinerItens.style.marginLeft = `${margin+ 20}px`
+    conteinerItens.style.marginLeft = `${margin+ 35}px`
   }
 
   
